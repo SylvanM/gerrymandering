@@ -1,0 +1,1012 @@
+Average performance: 0.1208898388916549
+Average RAND performance: 0.14940145707491295
+Naive / RAND = 0.8091610433962385
+---[ n = 736 ]--- (Naive only)
+Average winning groups: 88.85701040419775
+Average winning groups (RANDOM): 110.30707128335492
+Average performance: 0.12072963370135564
+Average RAND performance: 0.14987373815673222
+Naive / RAND = 0.8055422863684177
+---[ n = 737 ]--- (Naive only)
+Average winning groups: 89.68629357818092
+Average winning groups (RANDOM): 111.17567129346975
+Average performance: 0.12169103606266068
+Average RAND performance: 0.15084894341040672
+Naive / RAND = 0.8067079113148465
+---[ n = 738 ]--- (Naive only)
+Average winning groups: 90.07761560155352
+Average winning groups (RANDOM): 111.60266294193806
+Average performance: 0.12205638970400205
+Average RAND performance: 0.15122312051753126
+Naive / RAND = 0.8071278339336484
+---[ n = 739 ]--- (Naive only)
+Average winning groups: 90.18222598720486
+Average winning groups (RANDOM): 111.76916741708095
+Average performance: 0.12203278212071023
+Average RAND performance: 0.15124379894056963
+Naive / RAND = 0.8068613918423346
+---[ n = 740 ]--- (Naive only)
+Average winning groups: 89.6838701670164
+Average winning groups (RANDOM): 111.13094428494436
+Average performance: 0.12119441914461675
+Average RAND performance: 0.1501769517364113
+Naive / RAND = 0.8070107812371613
+---[ n = 741 ]--- (Naive only)
+Average winning groups: 90.26082078580353
+Average winning groups (RANDOM): 111.92514136717621
+Average performance: 0.12180947474467413
+Average RAND performance: 0.15104607471953604
+Naive / RAND = 0.8064391939403341
+---[ n = 742 ]--- (Naive only)
+Average winning groups: 90.20889027525023
+Average winning groups (RANDOM): 111.7962432418312
+Average performance: 0.12157532382109194
+Average RAND performance: 0.15066879143103937
+Naive / RAND = 0.8069044867645109
+---[ n = 743 ]--- (Naive only)
+Average winning groups: 91.14605016255639
+Average winning groups (RANDOM): 112.72498497891061
+Average performance: 0.12267301502362907
+Average RAND performance: 0.15171599593393084
+Naive / RAND = 0.8085700803562639
+---[ n = 744 ]--- (Naive only)
+Average winning groups: 91.13396141721125
+Average winning groups (RANDOM): 112.75745920553076
+Average performance: 0.12249188362528395
+Average RAND performance: 0.15155572473861662
+Naive / RAND = 0.8082300014502377
+---[ n = 745 ]--- (Naive only)
+Average winning groups: 90.61059713825962
+Average winning groups (RANDOM): 111.95697644390512
+Average performance: 0.12162496260169077
+Average RAND performance: 0.15027782073007398
+Naive / RAND = 0.809334085434677
+---[ n = 746 ]--- (Naive only)
+Average winning groups: 90.47722836587592
+Average winning groups (RANDOM): 112.3418115177554
+Average performance: 0.1212831479435334
+Average RAND performance: 0.1505922406404228
+Naive / RAND = 0.8053744829597675
+---[ n = 747 ]--- (Naive only)
+Average winning groups: 90.3413009274139
+Average winning groups (RANDOM): 112.24874018216359
+Average performance: 0.12093882319600253
+Average RAND performance: 0.15026605111400748
+Naive / RAND = 0.8048313128575246
+---[ n = 748 ]--- (Naive only)
+Average winning groups: 90.21661725654003
+Average winning groups (RANDOM): 111.58821785864433
+Average performance: 0.12061045087772732
+Average RAND performance: 0.14918210943669027
+Naive / RAND = 0.808477982602276
+---[ n = 749 ]--- (Naive only)
+Average winning groups: 91.31882960473865
+Average winning groups (RANDOM): 113.3657578486055
+Average performance: 0.12192100080739474
+Average RAND performance: 0.1513561520008084
+Naive / RAND = 0.8055239195480045
+---[ n = 750 ]--- (Naive only)
+Average winning groups: 91.29776752297192
+Average winning groups (RANDOM): 113.11831772101945
+Average performance: 0.1217303566972959
+Average RAND performance: 0.15082442362802592
+Naive / RAND = 0.8070997638785352
+---[ n = 751 ]--- (Naive only)
+Average winning groups: 90.89293251995463
+Average winning groups (RANDOM): 112.64701004130713
+Average performance: 0.12102920442071188
+Average RAND performance: 0.14999601869681375
+Naive / RAND = 0.8068827791046085
+---[ n = 752 ]--- (Naive only)
+Average winning groups: 91.44278342420014
+Average winning groups (RANDOM): 113.52411995250114
+Average performance: 0.12159944604281935
+Average RAND performance: 0.1509629254687515
+Naive / RAND = 0.8054921144727667
+---[ n = 753 ]--- (Naive only)
+Average winning groups: 92.88973241902943
+Average winning groups (RANDOM): 114.76580874210657
+Average performance: 0.12335953840508557
+Average RAND performance: 0.152411432592439
+Naive / RAND = 0.8093850724109348
+---[ n = 754 ]--- (Naive only)
+Average winning groups: 92.35465298487529
+Average winning groups (RANDOM): 114.10061582013861
+Average performance: 0.12248627716826961
+Average RAND performance: 0.15132707668453396
+Naive / RAND = 0.8094141501432178
+---[ n = 755 ]--- (Naive only)
+Average winning groups: 92.30953035429098
+Average winning groups (RANDOM): 114.18258672658509
+Average performance: 0.12226427861495495
+Average RAND performance: 0.15123521420739747
+Naive / RAND = 0.808437897587046
+---[ n = 756 ]--- (Naive only)
+Average winning groups: 91.27942932137822
+Average winning groups (RANDOM): 113.23274626655393
+Average performance: 0.12073998587483892
+Average RAND performance: 0.1497787649028491
+Naive / RAND = 0.8061221893047015
+---[ n = 757 ]--- (Naive only)
+Average winning groups: 91.98750355446963
+Average winning groups (RANDOM): 114.1980985121338
+Average performance: 0.1215158567430246
+Average RAND performance: 0.15085614070295086
+Naive / RAND = 0.805508189304008
+---[ n = 758 ]--- (Naive only)
+Average winning groups: 92.61661620040155
+Average winning groups (RANDOM): 114.6442738103326
+Average performance: 0.12218550949921049
+Average RAND performance: 0.1512457438131037
+Naive / RAND = 0.8078608126004305
+---[ n = 759 ]--- (Naive only)
+Average winning groups: 92.2313141453875
+Average winning groups (RANDOM): 114.42478858916363
+Average performance: 0.12151688293199935
+Average RAND performance: 0.15075729721892442
+Naive / RAND = 0.8060431247685267
+---[ n = 760 ]--- (Naive only)
+Average winning groups: 91.60997497951355
+Average winning groups (RANDOM): 113.84453931774974
+Average performance: 0.12053944076251784
+Average RAND performance: 0.14979544647072335
+Naive / RAND = 0.804693624556048
+---[ n = 761 ]--- (Naive only)
+Average winning groups: 92.9837248328697
+Average winning groups (RANDOM): 115.06385008046527
+Average performance: 0.12218623499720066
+Average RAND performance: 0.15120085424502663
+Naive / RAND = 0.8081054542138584
+---[ n = 762 ]--- (Naive only)
+Average winning groups: 93.11486910734499
+Average winning groups (RANDOM): 115.47079522395053
+Average performance: 0.12219799095452098
+Average RAND performance: 0.15153647667185108
+Naive / RAND = 0.8063932436487754
+---[ n = 763 ]--- (Naive only)
+Average winning groups: 92.91696150506951
+Average winning groups (RANDOM): 115.03757265703456
+Average performance: 0.12177845544570054
+Average RAND performance: 0.15077008211931134
+Naive / RAND = 0.8077096844009914
+---[ n = 764 ]--- (Naive only)
+Average winning groups: 92.92088524885561
+Average winning groups (RANDOM): 115.17019250793054
+Average performance: 0.12162419535190525
+Average RAND performance: 0.1507463252721604
+Naive / RAND = 0.8068136661528732
+---[ n = 765 ]--- (Naive only)
+Average winning groups: 92.86782004209488
+Average winning groups (RANDOM): 115.41989992492647
+Average performance: 0.12139584319228089
+Average RAND performance: 0.15087568617637448
+Naive / RAND = 0.8046083916421664
+---[ n = 766 ]--- (Naive only)
+Average winning groups: 93.44522753208433
+Average winning groups (RANDOM): 115.82097083550694
+Average performance: 0.12199115865807354
+Average RAND performance: 0.15120231179570096
+Naive / RAND = 0.8068074965871126
+---[ n = 767 ]--- (Naive only)
+Average winning groups: 93.67799552433327
+Average winning groups (RANDOM): 115.98999876483114
+Average performance: 0.1221355873850499
+Average RAND performance: 0.1512255524965204
+Naive / RAND = 0.8076385595474029
+---[ n = 768 ]--- (Naive only)
+Average winning groups: 94.00275722450179
+Average winning groups (RANDOM): 116.0570055198528
+Average performance: 0.12239942346940337
+Average RAND performance: 0.15111589260397498
+Naive / RAND = 0.8099705554476124
+---[ n = 769 ]--- (Naive only)
+Average winning groups: 93.19620379222968
+Average winning groups (RANDOM): 115.75965417644657
+Average performance: 0.12119142235660557
+Average RAND performance: 0.1505327102424533
+Naive / RAND = 0.8050836403689962
+---[ n = 770 ]--- (Naive only)
+Average winning groups: 93.33621405119345
+Average winning groups (RANDOM): 115.99568047321078
+Average performance: 0.12121586240414733
+Average RAND performance: 0.15064374087429971
+Naive / RAND = 0.8046524980104709
+---[ n = 771 ]--- (Naive only)
+Average winning groups: 94.03841154756891
+Average winning groups (RANDOM): 116.46215764572315
+Average performance: 0.12196940537946681
+Average RAND performance: 0.151053382160471
+Naive / RAND = 0.8074589501736086
+---[ n = 772 ]--- (Naive only)
+Average winning groups: 94.42898925671601
+Average winning groups (RANDOM): 116.89233366108331
+Average performance: 0.1223173435967824
+Average RAND performance: 0.15141493997549652
+Naive / RAND = 0.8078287625816647
+---[ n = 773 ]--- (Naive only)
+Average winning groups: 93.30759294418372
+Average winning groups (RANDOM): 115.8541507884356
+Average performance: 0.12070839966906044
+Average RAND performance: 0.14987600360729056
+Naive / RAND = 0.8053884328631026
+---[ n = 774 ]--- (Naive only)
+Average winning groups: 93.99758298176741
+Average winning groups (RANDOM): 116.52020629981814
+Average performance: 0.1214439056611982
+Average RAND performance: 0.15054290219614747
+Naive / RAND = 0.8067062869756876
+---[ n = 775 ]--- (Naive only)
+Average winning groups: 94.39756332708609
+Average winning groups (RANDOM): 116.8964786570631
+Average performance: 0.12180330751882076
+Average RAND performance: 0.15083416600911367
+Naive / RAND = 0.8075312824778783
+---[ n = 776 ]--- (Naive only)
+Average winning groups: 94.11853983128292
+Average winning groups (RANDOM): 116.60167031363036
+Average performance: 0.12128677813309655
+Average RAND performance: 0.1502598844247814
+Naive / RAND = 0.8071800307673702
+---[ n = 777 ]--- (Naive only)
+Average winning groups: 95.26673702990375
+Average winning groups (RANDOM): 118.1108212980129
+Average performance: 0.1226084131658993
+Average RAND performance: 0.1520087790193216
+Naive / RAND = 0.8065877112947188
+---[ n = 778 ]--- (Naive only)
+Average winning groups: 94.82805391188093
+Average winning groups (RANDOM): 117.32294165476667
+Average performance: 0.12188695875563102
+Average RAND performance: 0.15080069621435305
+Naive / RAND = 0.80826522566167
+---[ n = 779 ]--- (Naive only)
+Average winning groups: 95.46668389228148
+Average winning groups (RANDOM): 118.35555553275668
+Average performance: 0.12255030024683117
+Average RAND performance: 0.1519326771922422
+Naive / RAND = 0.8066092331919277
+---[ n = 780 ]--- (Naive only)
+Average winning groups: 94.23326855935488
+Average winning groups (RANDOM): 116.74927164992506
+Average performance: 0.1208118827684037
+Average RAND performance: 0.14967855339733982
+Naive / RAND = 0.8071422393273266
+---[ n = 781 ]--- (Naive only)
+Average winning groups: 94.73699075001112
+Average winning groups (RANDOM): 117.58179335241725
+Average performance: 0.12130216485276711
+Average RAND performance: 0.15055287241026535
+Naive / RAND = 0.8057113950121897
+---[ n = 782 ]--- (Naive only)
+Average winning groups: 94.78840806840917
+Average winning groups (RANDOM): 117.84500440510828
+Average performance: 0.12121279804144396
+Average RAND performance: 0.15069693657942235
+Naive / RAND = 0.8043481227474105
+---[ n = 783 ]--- (Naive only)
+Average winning groups: 94.93928443669678
+Average winning groups (RANDOM): 117.91887977794552
+Average performance: 0.12125068255005975
+Average RAND performance: 0.150598824748334
+Naive / RAND = 0.8051236970320453
+---[ n = 784 ]--- (Naive only)
+Average winning groups: 95.0418083342505
+Average winning groups (RANDOM): 118.057655217739
+Average performance: 0.12122679634470727
+Average RAND performance: 0.15058374390017729
+Naive / RAND = 0.805045705498391
+---[ n = 785 ]--- (Naive only)
+Average winning groups: 95.04967599188831
+Average winning groups (RANDOM): 117.86350573697194
+Average performance: 0.12108238979858384
+Average RAND performance: 0.15014459329550567
+Naive / RAND = 0.8064385612625868
+---[ n = 786 ]--- (Naive only)
+Average winning groups: 95.27343872794421
+Average winning groups (RANDOM): 118.06903067819007
+Average performance: 0.12121302637143029
+Average RAND performance: 0.15021505175342248
+Naive / RAND = 0.8069299644512394
+---[ n = 787 ]--- (Naive only)
+Average winning groups: 95.80837515564289
+Average winning groups (RANDOM): 118.56919540205651
+Average performance: 0.12173872319649669
+Average RAND performance: 0.15065971461506544
+Naive / RAND = 0.8080376596194829
+---[ n = 788 ]--- (Naive only)
+Average winning groups: 96.02348070401287
+Average winning groups (RANDOM): 118.92705720322347
+Average performance: 0.12185720901524476
+Average RAND performance: 0.1509226614254105
+Naive / RAND = 0.8074149227448486
+---[ n = 789 ]--- (Naive only)
+Average winning groups: 95.60675279257187
+Average winning groups (RANDOM): 118.41527764596691
+Average performance: 0.12117459162556637
+Average RAND performance: 0.15008273465902017
+Naive / RAND = 0.8073852858616181
+---[ n = 790 ]--- (Naive only)
+Average winning groups: 96.7631194276461
+Average winning groups (RANDOM): 119.59129115421159
+Average performance: 0.12248496130081785
+Average RAND performance: 0.15138138120786276
+Naive / RAND = 0.8091150993835428
+---[ n = 791 ]--- (Naive only)
+Average winning groups: 96.14302485140313
+Average winning groups (RANDOM): 119.19598176606965
+Average performance: 0.12154617553906842
+Average RAND performance: 0.15069024243498058
+Naive / RAND = 0.8065961908018884
+---[ n = 792 ]--- (Naive only)
+Average winning groups: 96.36736316115727
+Average winning groups (RANDOM): 119.59598248293204
+Average performance: 0.12167596358731979
+Average RAND performance: 0.15100502838754046
+Naive / RAND = 0.8057742506100503
+---[ n = 793 ]--- (Naive only)
+Average winning groups: 96.61230607415722
+Average winning groups (RANDOM): 119.583154101956
+Average performance: 0.12183140740751225
+Average RAND performance: 0.15079842888014627
+Naive / RAND = 0.8079089968791595
+---[ n = 794 ]--- (Naive only)
+Average winning groups: 95.9518199138781
+Average winning groups (RANDOM): 118.75212683069995
+Average performance: 0.12084612079833514
+Average RAND performance: 0.14956187258274553
+Naive / RAND = 0.8080008541714178
+---[ n = 795 ]--- (Naive only)
+Average winning groups: 97.1194488944536
+Average winning groups (RANDOM): 120.2142705962833
+Average performance: 0.12216282879805485
+Average RAND performance: 0.1512129189890356
+Naive / RAND = 0.807886188659005
+---[ n = 796 ]--- (Naive only)
+Average winning groups: 96.42668944746649
+Average winning groups (RANDOM): 119.5954668688435
+Average performance: 0.12113905709480714
+Average RAND performance: 0.15024556139301948
+Naive / RAND = 0.8062737825440702
+---[ n = 797 ]--- (Naive only)
+Average winning groups: 96.23966145483804
+Average winning groups (RANDOM): 119.6634506817457
+Average performance: 0.12075239831221837
+Average RAND performance: 0.15014234715400968
+Naive / RAND = 0.8042527681304708
+---[ n = 798 ]--- (Naive only)
+Average winning groups: 96.34988330201618
+Average winning groups (RANDOM): 119.69448702460436
+Average performance: 0.12073920213285236
+Average RAND performance: 0.14999309150952927
+Naive / RAND = 0.8049650881766219
+---[ n = 799 ]--- (Naive only)
+Average winning groups: 97.27110058843724
+Average winning groups (RANDOM): 120.75537870923554
+Average performance: 0.12174105205060981
+Average RAND performance: 0.15113313981130858
+Naive / RAND = 0.8055218875397209
+---[ n = 800 ]--- (Naive only)
+Average winning groups: 96.59874799774938
+Average winning groups (RANDOM): 119.86940760640672
+Average performance: 0.12074843499718674
+Average RAND performance: 0.1498367595080084
+Naive / RAND = 0.8058665670137709
+---[ n = 801 ]--- (Naive only)
+Average winning groups: 96.76462752966292
+Average winning groups (RANDOM): 120.06855669792611
+Average performance: 0.12080477843902986
+Average RAND performance: 0.14989832296869676
+Naive / RAND = 0.8059114741681099
+---[ n = 802 ]--- (Naive only)
+Average winning groups: 97.58674987574395
+Average winning groups (RANDOM): 120.6977730832579
+Average performance: 0.12167923924656353
+Average RAND performance: 0.15049597641303977
+Naive / RAND = 0.8085215442080124
+---[ n = 803 ]--- (Naive only)
+Average winning groups: 96.82286881505331
+Average winning groups (RANDOM): 120.22664916708594
+Average performance: 0.12057642442721458
+Average RAND performance: 0.14972185450446568
+Naive / RAND = 0.8053361670297653
+---[ n = 804 ]--- (Naive only)
+Average winning groups: 98.08537705522541
+Average winning groups (RANDOM): 121.56488977557706
+Average performance: 0.12199673763087737
+Average RAND performance: 0.15120011166116548
+Naive / RAND = 0.8068561344998744
+---[ n = 805 ]--- (Naive only)
+Average winning groups: 98.38259236665651
+Average winning groups (RANDOM): 121.56614980395443
+Average performance: 0.12221440045547392
+Average RAND performance: 0.15101385068814216
+Naive / RAND = 0.8092926569222991
+---[ n = 806 ]--- (Naive only)
+Average winning groups: 98.97984153296828
+Average winning groups (RANDOM): 122.27630279983212
+Average performance: 0.12280377361410456
+Average RAND performance: 0.1517075717119505
+Naive / RAND = 0.8094768918144307
+---[ n = 807 ]--- (Naive only)
+Average winning groups: 98.27342373391875
+Average winning groups (RANDOM): 121.96947638461502
+Average performance: 0.12177623758849906
+Average RAND performance: 0.15113937594128254
+Naive / RAND = 0.8057214529971923
+---[ n = 808 ]--- (Naive only)
+Average winning groups: 97.95808783894806
+Average winning groups (RANDOM): 121.57224046663725
+Average performance: 0.12123525722642087
+Average RAND performance: 0.1504606936468283
+Naive / RAND = 0.8057603237626474
+---[ n = 809 ]--- (Naive only)
+Average winning groups: 98.264372779659
+Average winning groups (RANDOM): 121.90189231886464
+Average performance: 0.121463996019356
+Average RAND performance: 0.15068219075261388
+Naive / RAND = 0.8060939080635775
+---[ n = 810 ]--- (Naive only)
+Average winning groups: 98.3074509340269
+Average winning groups (RANDOM): 121.97994983158823
+Average performance: 0.12136722337534185
+Average RAND performance: 0.15059253065628175
+Naive / RAND = 0.8059312294336505
+---[ n = 811 ]--- (Naive only)
+Average winning groups: 98.90529162332041
+Average winning groups (RANDOM): 122.77410920903678
+Average performance: 0.12195473689681925
+Average RAND performance: 0.1513860779396261
+Naive / RAND = 0.8055875319357682
+---[ n = 812 ]--- (Naive only)
+Average winning groups: 98.84043916788171
+Average winning groups (RANDOM): 122.46893559728638
+Average performance: 0.12172467877817945
+Average RAND performance: 0.15082381231192904
+Naive / RAND = 0.8070653891603822
+---[ n = 813 ]--- (Naive only)
+Average winning groups: 98.88244318862272
+Average winning groups (RANDOM): 122.70306674314331
+Average performance: 0.12162662138821982
+Average RAND performance: 0.15092628135687983
+Naive / RAND = 0.805867740825217
+---[ n = 814 ]--- (Naive only)
+Average winning groups: 98.44028982939693
+Average winning groups (RANDOM): 122.24377198639795
+Average performance: 0.12093401698943113
+Average RAND performance: 0.15017662406191393
+Naive / RAND = 0.8052785694501506
+---[ n = 815 ]--- (Naive only)
+Average winning groups: 99.62943687147468
+Average winning groups (RANDOM): 123.45136111766061
+Average performance: 0.12224470781776034
+Average RAND performance: 0.15147406272105596
+Naive / RAND = 0.8070339279331119
+---[ n = 816 ]--- (Naive only)
+Average winning groups: 98.95934657173787
+Average winning groups (RANDOM): 122.45149650053095
+Average performance: 0.12127370903399248
+Average RAND performance: 0.15006310845653303
+Naive / RAND = 0.8081513856493275
+---[ n = 817 ]--- (Naive only)
+Average winning groups: 99.97884024120434
+Average winning groups (RANDOM): 123.92341355482846
+Average performance: 0.12237312147026234
+Average RAND performance: 0.1516810447427521
+Naive / RAND = 0.8067792628789222
+---[ n = 818 ]--- (Naive only)
+Average winning groups: 99.1610953630615
+Average winning groups (RANDOM): 123.12791600858928
+Average performance: 0.12122383296217788
+Average RAND performance: 0.15052312470487686
+Naive / RAND = 0.8053502290751362
+---[ n = 819 ]--- (Naive only)
+Average winning groups: 98.67124233594504
+Average winning groups (RANDOM): 122.65327863130368
+Average performance: 0.12047770736989626
+Average RAND performance: 0.14975980296862476
+Naive / RAND = 0.8044729291954049
+---[ n = 820 ]--- (Naive only)
+Average winning groups: 99.16932713130852
+Average winning groups (RANDOM): 123.06732704920618
+Average performance: 0.12093820381866893
+Average RAND performance: 0.1500821061575685
+Naive / RAND = 0.8058136103960193
+---[ n = 821 ]--- (Naive only)
+Average winning groups: 100.01839562889445
+Average winning groups (RANDOM): 124.15265676148704
+Average performance: 0.12182508602788605
+Average RAND performance: 0.1512212628032729
+Naive / RAND = 0.8056081781724772
+---[ n = 822 ]--- (Naive only)
+Average winning groups: 100.13282090571406
+Average winning groups (RANDOM): 124.21830583370128
+Average performance: 0.12181608382690275
+Average RAND performance: 0.15111716038163173
+Naive / RAND = 0.8061035789665981
+---[ n = 823 ]--- (Naive only)
+Average winning groups: 99.5773658794454
+Average winning groups (RANDOM): 123.21375299248075
+Average performance: 0.12099315416700535
+Average RAND performance: 0.14971294409778949
+Naive / RAND = 0.8081676230211267
+---[ n = 824 ]--- (Naive only)
+Average winning groups: 100.38797259804005
+Average winning groups (RANDOM): 124.26689405021159
+Average performance: 0.12183006383257287
+Average RAND performance: 0.15080933743957717
+Naive / RAND = 0.8078416489389124
+---[ n = 825 ]--- (Naive only)
+Average winning groups: 100.84877661129329
+Average winning groups (RANDOM): 125.26958991745249
+Average performance: 0.12224094134702217
+Average RAND performance: 0.1518419271726697
+Naive / RAND = 0.805053937493916
+---[ n = 826 ]--- (Naive only)
+Average winning groups: 100.05597060051676
+Average winning groups (RANDOM): 124.26169972637898
+Average performance: 0.1211331363202382
+Average RAND performance: 0.15043789313120942
+Naive / RAND = 0.8052036212351625
+---[ n = 827 ]--- (Naive only)
+Average winning groups: 100.3507107037871
+Average winning groups (RANDOM): 124.54434474434586
+Average performance: 0.12134306010131451
+Average RAND performance: 0.1505977566437072
+Naive / RAND = 0.8057428132106567
+---[ n = 828 ]--- (Naive only)
+Average winning groups: 99.96271405490896
+Average winning groups (RANDOM): 123.64800986545178
+Average performance: 0.12072791552525236
+Average RAND performance: 0.14933334524813016
+Naive / RAND = 0.8084457983891847
+---[ n = 829 ]--- (Naive only)
+Average winning groups: 101.10705872391704
+Average winning groups (RANDOM): 125.3059937285901
+Average performance: 0.12196267638590716
+Average RAND performance: 0.15115318905740663
+Naive / RAND = 0.8068812649370357
+---[ n = 830 ]--- (Naive only)
+Average winning groups: 100.66084536732949
+Average winning groups (RANDOM): 124.78002222673594
+Average performance: 0.12127812694858975
+Average RAND performance: 0.1503373761767903
+Naive / RAND = 0.8067064227991573
+---[ n = 831 ]--- (Naive only)
+Average winning groups: 100.89275658300633
+Average winning groups (RANDOM): 125.25647803380967
+Average performance: 0.1214112594260004
+Average RAND performance: 0.1507298171285315
+Naive / RAND = 0.8054893301069267
+---[ n = 832 ]--- (Naive only)
+Average winning groups: 100.35849988677514
+Average winning groups (RANDOM): 124.49175120079911
+Average performance: 0.12062319697929703
+Average RAND performance: 0.14962950865480662
+Naive / RAND = 0.8061457800919016
+---[ n = 833 ]--- (Naive only)
+Average winning groups: 101.12436827811234
+Average winning groups (RANDOM): 125.4664390657835
+Average performance: 0.12139780105415647
+Average RAND performance: 0.15061997486888776
+Naive / RAND = 0.8059873941675484
+---[ n = 834 ]--- (Naive only)
+Average winning groups: 101.8314603232439
+Average winning groups (RANDOM): 125.86022480763361
+Average performance: 0.12210007233002866
+Average RAND performance: 0.15091154053673095
+Naive / RAND = 0.80908373140827
+---[ n = 835 ]--- (Naive only)
+Average winning groups: 100.82361831977211
+Average winning groups (RANDOM): 125.21962355805563
+Average performance: 0.12074684828715222
+Average RAND performance: 0.14996362102761154
+Naive / RAND = 0.8051742646632954
+---[ n = 836 ]--- (Naive only)
+Average winning groups: 101.13399333226154
+Average winning groups (RANDOM): 125.34940250617102
+Average performance: 0.1209736762347626
+Average RAND performance: 0.14993947668202276
+Naive / RAND = 0.8068167163962562
+---[ n = 837 ]--- (Naive only)
+Average winning groups: 101.9765155479567
+Average winning groups (RANDOM): 126.49225952594728
+Average performance: 0.12183574139540823
+Average RAND performance: 0.15112575809551645
+Naive / RAND = 0.8061877930723367
+---[ n = 838 ]--- (Naive only)
+Average winning groups: 102.38786018794138
+Average winning groups (RANDOM): 126.8983128925037
+Average performance: 0.1221812174080446
+Average RAND performance: 0.1514299676521524
+Naive / RAND = 0.8068496566591452
+---[ n = 839 ]--- (Naive only)
+Average winning groups: 101.9435125413591
+Average winning groups (RANDOM): 126.40259922465123
+Average performance: 0.12150597442355077
+Average RAND performance: 0.1506586403154365
+Naive / RAND = 0.8064985464434811
+---[ n = 840 ]--- (Naive only)
+Average winning groups: 101.70915358922942
+Average winning groups (RANDOM): 126.51216604374987
+Average performance: 0.12108232570146359
+Average RAND performance: 0.1506097214806546
+Naive / RAND = 0.8039476104934984
+---[ n = 841 ]--- (Naive only)
+Average winning groups: 102.49231670095355
+Average winning groups (RANDOM): 126.91156716447175
+Average performance: 0.12186957990600898
+Average RAND performance: 0.15090554954158353
+Naive / RAND = 0.8075884569932705
+---[ n = 842 ]--- (Naive only)
+Average winning groups: 101.43453126239898
+Average winning groups (RANDOM): 125.88496309564822
+Average performance: 0.12046856444465437
+Average RAND performance: 0.14950708206133992
+Naive / RAND = 0.8057716248868291
+---[ n = 843 ]--- (Naive only)
+Average winning groups: 101.95145287805882
+Average winning groups (RANDOM): 126.82413123535285
+Average performance: 0.1209388527616356
+Average RAND performance: 0.150443809294606
+Naive / RAND = 0.8038805540001156
+---[ n = 844 ]--- (Naive only)
+Average winning groups: 103.02960897733793
+Average winning groups (RANDOM): 127.4994103911497
+Average performance: 0.12207299641864684
+Average RAND performance: 0.1510656521222153
+Naive / RAND = 0.8080791013955126
+---[ n = 845 ]--- (Naive only)
+Average winning groups: 103.10398379470121
+Average winning groups (RANDOM): 127.74237726322515
+Average performance: 0.12201654886946889
+Average RAND performance: 0.15117441096239662
+Naive / RAND = 0.8071243545299441
+---[ n = 846 ]--- (Naive only)
+Average winning groups: 102.77755349620125
+Average winning groups (RANDOM): 127.3103334507188
+Average performance: 0.12148646985366578
+Average RAND performance: 0.15048502771952577
+Naive / RAND = 0.8072993818367927
+---[ n = 847 ]--- (Naive only)
+Average winning groups: 102.97914736428004
+Average winning groups (RANDOM): 127.59197977450009
+Average performance: 0.12158104765558446
+Average RAND performance: 0.1506398816700119
+Naive / RAND = 0.8070973390826007
+---[ n = 848 ]--- (Naive only)
+Average winning groups: 102.32823778151175
+Average winning groups (RANDOM): 127.11708583713015
+Average performance: 0.12067009172348084
+Average RAND performance: 0.14990222386454027
+Naive / RAND = 0.8049920048719547
+---[ n = 849 ]--- (Naive only)
+Average winning groups: 103.23201338351151
+Average winning groups (RANDOM): 128.12057962089327
+Average performance: 0.12159247748352357
+Average RAND performance: 0.15090763206230068
+Naive / RAND = 0.8057410736742948
+---[ n = 850 ]--- (Naive only)
+Average winning groups: 102.74785692590774
+Average winning groups (RANDOM): 127.51508293568119
+Average performance: 0.12087983167753852
+Average RAND performance: 0.15001774463021317
+Naive / RAND = 0.8057702238858592
+---[ n = 851 ]--- (Naive only)
+Average winning groups: 102.96864432955691
+Average winning groups (RANDOM): 127.78689759259656
+Average performance: 0.12099723187962035
+Average RAND performance: 0.1501608667363062
+Naive / RAND = 0.8057840535250813
+---[ n = 852 ]--- (Naive only)
+Average winning groups: 103.36473326484972
+Average winning groups (RANDOM): 127.9122227903888
+Average performance: 0.12132010946578606
+Average RAND performance: 0.1501317168901277
+Naive / RAND = 0.8080911347638347
+---[ n = 853 ]--- (Naive only)
+Average winning groups: 103.65145286909846
+Average winning groups (RANDOM): 128.08409143963837
+Average performance: 0.12151401274220218
+Average RAND performance: 0.1501571998120028
+Naive / RAND = 0.8092453301895484
+---[ n = 854 ]--- (Naive only)
+Average winning groups: 103.1763257462786
+Average winning groups (RANDOM): 128.04972576580678
+Average performance: 0.12081536972632154
+Average RAND performance: 0.14994113087331004
+Naive / RAND = 0.8057520242954698
+---[ n = 855 ]--- (Naive only)
+Average winning groups: 103.56830254142076
+Average winning groups (RANDOM): 128.3370006205746
+Average performance: 0.12113251759230499
+Average RAND performance: 0.15010175511178317
+Naive / RAND = 0.8070026729673859
+---[ n = 856 ]--- (Naive only)
+Average winning groups: 104.18966065794606
+Average winning groups (RANDOM): 129.09031525641166
+Average performance: 0.12171689329199306
+Average RAND performance: 0.15080644305655566
+Naive / RAND = 0.8071067178896767
+---[ n = 857 ]--- (Naive only)
+Average winning groups: 103.8256191536227
+Average winning groups (RANDOM): 128.990315011778
+Average performance: 0.12115008069267526
+Average RAND performance: 0.15051378647815403
+Naive / RAND = 0.804910191467805
+---[ n = 858 ]--- (Naive only)
+Average winning groups: 104.391965368643
+Average winning groups (RANDOM): 129.5160693834231
+Average performance: 0.12166895730611073
+Average RAND performance: 0.15095112981750944
+Naive / RAND = 0.806015545913442
+---[ n = 859 ]--- (Naive only)
+Average winning groups: 104.20371111042564
+Average winning groups (RANDOM): 129.2903755549406
+Average performance: 0.12130816194461658
+Average RAND performance: 0.15051266071587963
+Naive / RAND = 0.8059664972211745
+---[ n = 860 ]--- (Naive only)
+Average winning groups: 103.99430079932159
+Average winning groups (RANDOM): 128.95347748613477
+Average performance: 0.1209236055806065
+Average RAND performance: 0.14994590405364508
+Naive / RAND = 0.8064482077305994
+---[ n = 861 ]--- (Naive only)
+Average winning groups: 104.91228501993524
+Average winning groups (RANDOM): 130.17226784553438
+Average performance: 0.12184934380944859
+Average RAND performance: 0.15118730295648591
+Naive / RAND = 0.8059495832432354
+---[ n = 862 ]--- (Naive only)
+Average winning groups: 104.93672642872558
+Average winning groups (RANDOM): 129.80841257489274
+Average performance: 0.12173634156464684
+Average RAND performance: 0.1505898057713373
+Naive / RAND = 0.8083969624709995
+---[ n = 863 ]--- (Naive only)
+Average winning groups: 105.2472868099977
+Average winning groups (RANDOM): 130.63897326376926
+Average performance: 0.1219551411471584
+Average RAND performance: 0.15137772104724131
+Naive / RAND = 0.8056346753238487
+---[ n = 864 ]--- (Naive only)
+Average winning groups: 104.46639956821191
+Average winning groups (RANDOM): 129.74888788257624
+Average performance: 0.12091018468543045
+Average RAND performance: 0.15017232393816696
+Naive / RAND = 0.805142928567949
+---[ n = 865 ]--- (Naive only)
+Average winning groups: 105.28600468324562
+Average winning groups (RANDOM): 130.7999908544913
+Average performance: 0.1217179244893013
+Average RAND performance: 0.15121386225952754
+Naive / RAND = 0.8049389300062814
+---[ n = 866 ]--- (Naive only)
+Average winning groups: 104.89616611379705
+Average winning groups (RANDOM): 130.55620538129997
+Average performance: 0.121127212602537
+Average RAND performance: 0.15075774293452654
+Naive / RAND = 0.8034559966524709
+---[ n = 867 ]--- (Naive only)
+Average winning groups: 105.07483123946439
+Average winning groups (RANDOM): 130.2462068169796
+Average performance: 0.12119357697746758
+Average RAND performance: 0.15022630544057625
+Naive / RAND = 0.8067400487686699
+---[ n = 868 ]--- (Naive only)
+Average winning groups: 105.63581388237989
+Average winning groups (RANDOM): 130.9720110772141
+Average performance: 0.12170024640827176
+Average RAND performance: 0.15088941368342637
+Naive / RAND = 0.8065525833615143
+---[ n = 869 ]--- (Naive only)
+Average winning groups: 105.23694427877804
+Average winning groups (RANDOM): 130.35737208535906
+Average performance: 0.12110120170170086
+Average RAND performance: 0.15000848341238096
+Naive / RAND = 0.8072956871964866
+---[ n = 870 ]--- (Naive only)
+Average winning groups: 105.85435553592859
+Average winning groups (RANDOM): 131.27395889522242
+Average performance: 0.12167167302980297
+Average RAND performance: 0.150889607925543
+Naive / RAND = 0.8063621789635922
+---[ n = 871 ]--- (Naive only)
+Average winning groups: 106.18636922616575
+Average winning groups (RANDOM): 131.75735140166614
+Average performance: 0.12191316788308353
+Average RAND performance: 0.15127135637389913
+Naive / RAND = 0.8059236778557691
+---[ n = 872 ]--- (Naive only)
+Average winning groups: 106.75470490474392
+Average winning groups (RANDOM): 131.93403938540445
+Average performance: 0.1224251203036054
+Average RAND performance: 0.15130050388234456
+Naive / RAND = 0.8091520990492309
+---[ n = 873 ]--- (Naive only)
+Average winning groups: 106.31686006022754
+Average winning groups (RANDOM): 131.2634272394684
+Average performance: 0.12178334485707622
+Average RAND performance: 0.1503590231838126
+Naive / RAND = 0.8099503593355827
+---[ n = 874 ]--- (Naive only)
+Average winning groups: 105.84429577789082
+Average winning groups (RANDOM): 131.3450274021594
+Average performance: 0.12110331324701466
+Average RAND performance: 0.15028035171871784
+Naive / RAND = 0.8058492801087244
+---[ n = 875 ]--- (Naive only)
+Average winning groups: 106.11474160627341
+Average winning groups (RANDOM): 131.85974305668427
+Average performance: 0.12127399040716962
+Average RAND performance: 0.15069684920763915
+Naive / RAND = 0.804754651771591
+---[ n = 876 ]--- (Naive only)
+Average winning groups: 106.25261650892759
+Average winning groups (RANDOM): 132.2531058647775
+Average performance: 0.12129294122023697
+Average RAND performance: 0.15097386514244007
+Naive / RAND = 0.8034035632975292
+---[ n = 877 ]--- (Naive only)
+Average winning groups: 107.24391739727636
+Average winning groups (RANDOM): 133.3847663575185
+Average performance: 0.12228496852597076
+Average RAND performance: 0.1520920939082309
+Naive / RAND = 0.8040192319250657
+---[ n = 878 ]--- (Naive only)
+Average winning groups: 106.28784375278282
+Average winning groups (RANDOM): 131.82524878829886
+Average performance: 0.12105676965009433
+Average RAND performance: 0.15014265237847252
+Naive / RAND = 0.8062783475074101
+---[ n = 879 ]--- (Naive only)
+Average winning groups: 106.29803737305014
+Average winning groups (RANDOM): 131.89466961413126
+Average performance: 0.12093064547559743
+Average RAND performance: 0.15005081867364192
+Naive / RAND = 0.8059312607858514
+---[ n = 880 ]--- (Naive only)
+Average winning groups: 106.95305137643547
+Average winning groups (RANDOM): 132.5591655967627
+Average performance: 0.12153755838231303
+Average RAND performance: 0.15063541545086673
+Naive / RAND = 0.8068325633685749
+---[ n = 881 ]--- (Naive only)
+Average winning groups: 106.13071188701116
+Average winning groups (RANDOM): 131.7945287358005
+Average performance: 0.12046618829399677
+Average RAND performance: 0.14959651388853631
+Naive / RAND = 0.8052740345524066
+---[ n = 882 ]--- (Naive only)
+Average winning groups: 106.29429102358046
+Average winning groups (RANDOM): 131.92758201286142
+Average performance: 0.12051506918773294
+Average RAND performance: 0.14957775738419662
+Naive / RAND = 0.8057018055043106
+---[ n = 883 ]--- (Naive only)
+Average winning groups: 106.55100120510934
+Average winning groups (RANDOM): 132.00144369074332
+Average performance: 0.12066931053806268
+Average RAND performance: 0.14949200870978857
+Naive / RAND = 0.8071957262432676
+---[ n = 884 ]--- (Naive only)
+Average winning groups: 107.66043900807077
+Average winning groups (RANDOM): 133.42864935852106
+Average performance: 0.12178782693220674
+Average RAND performance: 0.15093738615217314
+Naive / RAND = 0.8068764806184057
+---[ n = 885 ]--- (Naive only)
+Average winning groups: 108.10369451893027
+Average winning groups (RANDOM): 134.09235463050612
+Average performance: 0.12215106725302856
+Average RAND performance: 0.15151678489322726
+Naive / RAND = 0.8061883529214766
+---[ n = 886 ]--- (Naive only)
+Average winning groups: 107.03312657283826
+Average winning groups (RANDOM): 132.94422914568563
+Average performance: 0.12080488326505447
+Average RAND performance: 0.15004992002899054
+Naive / RAND = 0.8050979516797758
+---[ n = 887 ]--- (Naive only)
+Average winning groups: 108.22800681596391
+Average winning groups (RANDOM): 134.12968439825516
+Average performance: 0.12201579122431105
+Average RAND performance: 0.15121723156511294
+Naive / RAND = 0.8068907885790254
+---[ n = 888 ]--- (Naive only)
+Average winning groups: 108.37083475165564
+Average winning groups (RANDOM): 134.57870726504217
+Average performance: 0.12203922832393653
+Average RAND performance: 0.15155259827144388
+Naive / RAND = 0.8052598880908242
+---[ n = 889 ]--- (Naive only)
+Average winning groups: 108.22763220335814
+Average winning groups (RANDOM): 134.1111602184174
+Average performance: 0.12174086862020038
+Average RAND performance: 0.15085619822094196
+Naive / RAND = 0.8069994475261821
+---[ n = 890 ]--- (Naive only)
+Average winning groups: 108.02891729393266
+Average winning groups (RANDOM): 133.6535550619601
+Average performance: 0.12138080594823895
+Average RAND performance: 0.15017253377748327
+Naive / RAND = 0.8082756739530933
+---[ n = 891 ]--- (Naive only)
+Average winning groups: 108.686036243091
+Average winning groups (RANDOM): 134.82435610970728
+Average performance: 0.12198208332557912
+Average RAND performance: 0.15131802032514846
+Naive / RAND = 0.8061305789189351
+---[ n = 892 ]--- (Naive only)
+Average winning groups: 108.03984500116096
+Average winning groups (RANDOM): 134.17411374719148
+Average performance: 0.12112090246766924
+Average RAND performance: 0.15041941003048373
+Naive / RAND = 0.8052212307116687
+---[ n = 893 ]--- (Naive only)
+Average winning groups: 108.33982525475845
+Average winning groups (RANDOM): 134.36254778226083
+Average performance: 0.12132119289446636
+Average RAND performance: 0.15046197959939622
+Naive / RAND = 0.8063245825788217
+---[ n = 894 ]--- (Naive only)
+Average winning groups: 109.38115605714624
+Average winning groups (RANDOM): 135.39690837486518
+Average performance: 0.12235028641738953
+Average RAND performance: 0.15145068050879773
+Naive / RAND = 0.807855639910989
+---[ n = 895 ]--- (Naive only)
+Average winning groups: 108.92619877638535
+Average winning groups (RANDOM): 134.9086701770785
+Average performance: 0.12170525002948084
+Average RAND performance: 0.1507359443319313
+Naive / RAND = 0.8074069563758277
+---[ n = 896 ]--- (Naive only)
+Average winning groups: 109.45857121277146
+Average winning groups (RANDOM): 135.6211268038902
+Average performance: 0.1221635839428253
+Average RAND performance: 0.1513628647364846
+Naive / RAND = 0.8070908551810654
+---[ n = 897 ]--- (Naive only)
+Average winning groups: 108.98091947269874
+Average winning groups (RANDOM): 134.84675748508084
+Average performance: 0.12149489350356604
+Average RAND performance: 0.15033083331670105
+Naive / RAND = 0.8081834632527679
+---[ n = 898 ]--- (Naive only)
+Average winning groups: 108.3222688001958
+Average winning groups (RANDOM): 134.78885774722983
+Average performance: 0.12062613452137617
+Average RAND performance: 0.15009895072074592
+Naive / RAND = 0.803644089063601
+---[ n = 899 ]--- (Naive only)
+Average winning groups: 109.71953548096828
+Average winning groups (RANDOM): 135.96633611491353
+Average performance: 0.12204620186982011
+Average RAND performance: 0.15124175318677813
+Naive / RAND = 0.8069610362100037
+---[ n = 900 ]--- (Naive only)
+Average winning groups: 109.60101059116823
+Average winning groups (RANDOM): 135.88366426509418
+Average performance: 0.1217789006568536
+Average RAND performance: 0.150981849183438
+Naive / RAND = 0.8065797399851438
+---[ n = 901 ]--- (Naive only)
+Average winning groups: 109.90277920678679
+Average winning groups (RANDOM): 136.26152522093702
+Average performance: 0.12197866726613406
+Average RAND performance: 0.15123365729293786
+Naive / RAND = 0.8065576767072609
+---[ n = 902 ]--- (Naive only)
+Average winning groups: 109.72912474187949
+Average winning groups (RANDOM): 135.56519755226833
+Average performance: 0.1216509143479817
+Average RAND performance: 0.15029401059009792
+Naive / RAND = 0.8094195761384295
+---[ n = 903 ]--- (Naive only)
+Average winning groups: 110.28690317732084
+Average winning groups (RANDOM): 136.44656854758324
+Average performance: 0.1221338905618171
+Average RAND performance: 0.15110361965402352
+Naive / RAND = 0.8082790527550738
+---[ n = 904 ]--- (Naive only)

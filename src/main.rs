@@ -7,7 +7,8 @@ use std::collections::HashSet;
 
 use itertools::Itertools;
 use graph::*;
-use rand::{thread_rng, Rng};
+use rand::{seq::SliceRandom, thread_rng, Rng};
+use rand_distr::{Distribution, Normal};
 
 /**
  * Given 3*N students, assign them into groups so that the expected number of 
@@ -17,6 +18,25 @@ fn gerrymander(students: Vec<f64>) -> Vec<[f64 ; 3]> {
     let n = students.len() / 3;
     let mut sorted_students = students.clone();
     sorted_students.sort_by(|a, b| a.partial_cmp(b).unwrap());
+    
+    let mut groups = vec![ [0.0 ; 3] ; students.len() / 3 ];
+
+    for i in 0..sorted_students.len() {
+        groups[i % n][i / n] = sorted_students[i];
+    }
+
+    groups
+}
+
+/**
+ * Randomly assigns students
+ */
+fn gerrymander_random(students: Vec<f64>) -> Vec<[f64 ; 3]> {
+    let n = students.len() / 3;
+    let mut sorted_students = students.clone();
+    
+    // put students into a random order
+    sorted_students.shuffle(&mut thread_rng());
     
     let mut groups = vec![ [0.0 ; 3] ; students.len() / 3 ];
 
@@ -122,7 +142,7 @@ fn print_table() {
     }
 }
 
-const N: usize = 6; // yes, we'll have to change this by hand. :(
+const N: usize = 4; // yes, we'll have to change this by hand. :(
 const NODE_COUNT_TABLE: [usize ; 100] = [1, 20, 84, 220, 455, 816, 1330, 2024, 2925, 4060, 5456, 7140, 9139, 11480, 14190, 17296, 20825, 24804, 29260, 34220, 39711, 45760, 52394, 59640, 67525, 76076, 85320, 95284, 105995, 117480, 129766, 142880, 156849, 171700, 187460, 204156, 221815, 240464, 260130, 280840, 302621, 325500, 349504, 374660, 400995, 428536, 457310, 487344, 518665, 551300, 585276, 620620, 657359, 695520, 735130, 776216, 818805, 862924, 908600, 955860, 1004731, 1055240, 1107414, 1161280, 1216865, 1274196, 1333300, 1394204, 1456935, 1521520, 1587986, 1656360, 1726669, 1798940, 1873200, 1949476, 2027795, 2108184, 2190670, 2275280, 2362041, 2450980, 2542124, 2635500, 2731135, 2829056, 2929290, 3031864, 3136805, 3244140, 3353896, 3466100, 3580779, 3697960, 3817670, 3939936, 4064785, 4192244, 4322340, 4455100];
 const NODE_COUNT: usize = NODE_COUNT_TABLE[N - 1];
 
@@ -234,53 +254,83 @@ pub fn grouping_score(groups: Vec<[usize ; 3]>, p: Vec<f64>) -> f64 {
     passing_groups(probs)
 }
 
-fn main() {
-
-    // We are testing for each N
-    let mut students = vec![0.0 ; 3 * N];
-    for i in 0..students.len() {
-        students[i] = thread_rng().gen_range(0.0..=1.0);
-    }
-
-    let naive_score_groups = gerrymander(students.clone());
-    let berman_groups = berman_approx(students.clone());
-    // let max_groups = bf_gerrymander(students.clone());
-
-    let naive_score = passing_groups(naive_score_groups);
-    let berman_score = grouping_score(berman_groups, students);
-    // let max_score = passing_groups(max_groups);
-
-    println!("----[N={}]----", N);
-    // println!("Max score: {}", max_score);
-    println!("Naive score: {}", naive_score, );
-    println!("Berman groups: {}", berman_score, );
-    println!("Naive advantage: {}", naive_score / berman_score);
-}
-
 // fn main() {
-//     let trials = 100;
-//     for n in 1..=1000 {
 
-//         println!("---[ n = {} ]--- (Naive only)", n);
-
-//         let mut avg_expected = 0.0;
-
-//         for _ in 1..=trials { // trials
-            
-//             let mut students = vec![0.0 ; 3 * n];
-//             for i in 0..students.len() {
-//                 students[i] = thread_rng().gen_range(0.0..=1.0);
-//             }
-
-//             let groups = gerrymander(students);
-//             let score = passing_groups(groups);
-
-//             let incremental = (score as f64) / (trials as f64);
-//             avg_expected += incremental;
-
-//         }
-
-//         println!("Average winning groups: {}", avg_expected);
-//         println!("Average performance: {}", avg_expected / (n as f64));
+//     // We are testing for each N
+//     let mut students = vec![0.0 ; 3 * N];
+//     // for i in 0..students.len() {
+//     //     students[i] = thread_rng().gen_range(0.0..=1.0);
+//     // }
+//     for i in 0..N {
+//         students[i] = 1.0;
 //     }
+
+//     let naive_score_groups = gerrymander(students.clone());
+//     let berman_groups = berman_approx(students.clone());
+//     // let max_groups = bf_gerrymander(students.clone());
+
+//     let naive_score = passing_groups(naive_score_groups);
+//     let berman_score = grouping_score(berman_groups, students);
+//     // let max_score = passing_groups(max_groups);
+
+//     println!("----[N={}]----", N);
+//     // println!("Max score: {}", max_score);
+//     println!("Naive score: {}", naive_score, );
+//     println!("Berman groups: {}", berman_score, );
+//     println!("Naive advantage: {}", naive_score / berman_score);
 // }
+
+fn main() {
+    let trials = 100;
+
+    let mean = 0.8;
+    let std = 0.3;
+
+
+    for n in 1..=1000 {
+
+        println!("---[ n = {} ]--- (Naive only)", n);
+
+        let mut avg_expected = 0.0;
+        let mut avg_expected_rnd = 0.0;
+
+        for _ in 1..=trials { // trials
+            
+            let mut students = vec![0.0 ; 3 * n];
+            for i in 0..students.len() {
+                
+                // Create a normal distribution with mean 0 and standard deviation 1
+                let standard_normal = Normal::new(0.0, 1.0).unwrap();
+                let mut rng = thread_rng();
+
+                // Generate a somewhat Gaussian sample and transform it
+                let sample: f64 = standard_normal.sample(&mut rng);
+
+                // Scale and shift the sample to match the desired mean and std_dev
+                let transformed_sample = mean + std * sample;
+
+                // Clamp the sample to the range [0, 1]
+                let clamped_sample = transformed_sample.clamp(0.0, 1.0);
+
+                students[i] = clamped_sample;
+            }
+
+            let groups = gerrymander(students.clone());
+            let random_groups = gerrymander_random(students);
+            let score = passing_groups(groups);
+            let random_score = passing_groups(random_groups);
+
+            let incremental = (score as f64) / (trials as f64);
+            let inc_rand = (random_score as f64) / (trials as f64);
+            avg_expected += incremental;
+            avg_expected_rnd += inc_rand;
+
+        }
+
+        println!("Average winning groups: {}", avg_expected);
+        println!("Average winning groups (RANDOM): {}", avg_expected_rnd);
+        println!("Average performance: {}", avg_expected / (n as f64));
+        println!("Average RAND performance: {}", avg_expected_rnd / (n as f64));
+        println!("Naive / RAND = {}", avg_expected / avg_expected_rnd);
+    }
+}

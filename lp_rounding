@@ -1,0 +1,115 @@
+import itertools
+from pulp import LpProblem, LpMaximize, LpVariable, lpSum, value
+
+def group_passing_probability(group):
+    p1, p2, p3 = group
+    return (
+        p1 * p2 * (1 - p3) +
+        p1 * p3 * (1 - p2) +
+        p2 * p3 * (1 - p1) +
+        p1 * p2 * p3
+    )
+
+def solve_and_round_lp(probabilities):
+    num_students = len(probabilities)
+    assert num_students % 3 == 0, "Number of students must be a multiple of 3."
+    
+    n = num_students // 3  
+
+    all_groups = list(itertools.combinations(range(num_students), 3))
+
+    group_weights = {
+        group: group_passing_probability([probabilities[i] for i in group])
+        for group in all_groups
+    }
+
+    prob = LpProblem("Maximize_Group_Passing_Probability", LpMaximize)
+
+    group_vars = {group: LpVariable(f"x_{group}", 0, 1) for group in all_groups}
+
+    prob += lpSum(group_weights[group] * group_vars[group] for group in all_groups), "Total_Passing_Probability"
+
+    for student in range(num_students):
+        prob += lpSum(group_vars[group] for group in all_groups if student in group) == 1, f"Student_{student}_Constraint"
+
+    prob.solve()
+
+    fractional_solution = {group: group_vars[group].varValue for group in all_groups}
+
+    sorted_groups = sorted(fractional_solution.items(), key=lambda x: -x[1])
+
+    selected_groups = []
+    students_covered = set()
+    for group, value in sorted_groups:
+        if all(student not in students_covered for student in group):
+            selected_groups.append(group)
+            students_covered.update(group)
+            if len(selected_groups) == n:
+                break
+
+    optimal_value_result = prob.objective.value()
+    
+	# Make sure this is feasible!
+    flattened = [j for sub in selected_groups for j in sub]
+    assert len(flattened) == num_students
+    
+    for i in range(0, num_students):
+        assert (i in flattened)
+
+    return selected_groups, optimal_value_result
+
+def find_optimal_grouping(probabilities):
+    """
+    Finds the optimal grouping by brute force.
+    Arguments:
+        probabilities: List of probabilities for each student.
+    Returns:
+        optimal_value: Maximum expected number of groups passing.
+    """
+    n = len(probabilities) // 3
+    all_groups = list(itertools.combinations(probabilities, 3))
+    
+    all_partitions = itertools.combinations(all_groups, n)
+    
+    def is_valid_partition(partition):
+        used_students = set()
+        for group in partition:
+            if any(student in used_students for student in group):
+                return False
+            used_students.update(group)
+        return True
+
+    valid_partitions = filter(is_valid_partition, all_partitions)
+    
+    max_value = 0
+    for partition in valid_partitions:
+        value = sum(group_passing_probability(group) for group in partition)
+        max_value = max(max_value, value)
+    
+    return max_value
+
+if __name__ == "__main__":
+    import random
+    num_students = 9 * 10
+    probabilities = [random.random() for _ in range(num_students)]
+
+    # print(f"Probabilities: {probabilities}")
+
+    selected_groups, optimal_value_result = solve_and_round_lp(probabilities)
+
+    # optimal_brute_force_value = find_optimal_grouping(probabilities)
+
+    # approximation_ratio = optimal_value_result / optimal_brute_force_value
+    
+    passing_probability = 0
+    for g in selected_groups:
+        passing_probability += group_passing_probability([probabilities[i] for i in g])
+
+    print("\nSelected Groups (Rounded):")
+    for group in selected_groups:
+        print(group, "->", [probabilities[i] for i in group])
+    print(f"\nRounding Expected Value: {passing_probability}")
+    print(f"\nOptimal Value (Relaxed LP Solution): {optimal_value_result:.4f}")
+    # print(f"Optimal Value (Brute-Force Solution): {optimal_brute_force_value:.4f}")
+    # print(f"Approximation Ratio: {approximation_ratio:.4f}")
+    print(f"Approx Ratio Lower Bound: {passing_probability / optimal_value_result}")
