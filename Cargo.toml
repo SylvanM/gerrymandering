@@ -4,5 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+algebra_kit = "0.1.12"
 itertools = "0.13.0"
+matrix_kit = "0.1.9"
 rand = "0.8.5"
